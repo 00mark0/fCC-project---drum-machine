@@ -1,8 +1,13 @@
-# React + Vite
+# Drum Machine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a drum machine project for freeCodeCamp. It is a web application that allows users to play different drum sounds by clicking on buttons or using keyboard keys.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Power Switch: The drum machine has a power switch that allows users to turn it on and off. When the power is off, the buttons and keyboard keys should be disabled and no sound should be played.
+- Volume Slider: The drum machine has a volume slider that allows users to adjust the volume of the drum sounds. The slider should have a range from 0 to 100, where 0 is muted and 100 is the maximum volume.
+
+## Technologies Used
+
+- Tailwind
+- React
